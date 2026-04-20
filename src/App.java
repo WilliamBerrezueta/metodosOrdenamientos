@@ -9,9 +9,16 @@ public class App {
         int[] numeros = { -5, 10, 2, 0, 7 };
         // instancia de la clase
         BubbleSort bubbleSort = new BubbleSort();
+        // bubbleSort.printArreglo(numeros);
+        // bubbleSort.sortAscendente(numeros);
+        // bubbleSort.sortDescendent(numeros);
+        // bubbleSort.printArreglo(numeros);
         bubbleSort.printArreglo(numeros);
-        bubbleSort.sortAscendente(numeros);
+        bubbleSort.sort(numeros, true);
         bubbleSort.printArreglo(numeros);
+        bubbleSort.sort(numeros,false);
+        bubbleSort.printArreglo(numeros);
+            
     
     } 
 }
